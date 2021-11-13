@@ -1,0 +1,17 @@
+❔ 스프링부트란?
+	✔ 자바 프로그램을 보다 쉽고 빠르게 만들게 하는 도구 
+		→ 햄버거 가게에 빗대어보면 스프링부트는 프랜차이즈점 
+	✔ 보다 빠르고 쉽게 자바 프로그래밍이 가능함
+❔ 스프링부트 개발환경 설정 
+	📌참고 : https://hello-bryan.tistory.com/328
+		   https://www.youtube.com/watch?v=EYmVJuRLHDQ&list=PLyebPLlVYXCiYdYaWRKgCqvnCFrLEANXt&index=2
+	- 스프링부트는 기본적으로 8080 port를 사용한다. 
+	- 이미 8080 port를 사용하고 있거나 하다면 포트변경을 해야하는데 
+	  src/main/resources → 
+	  application.properties 에서  server.port = 변경할 포트넘버     코드를 추가한다. 
+	  만약 변경이 없다면 application.properties 파일은 아무것도 적혀있지 않은 빈파일인게 맞다. 
+======================================================================
+[application.properties]
+server.port=8088
+======================================================================	
+  
