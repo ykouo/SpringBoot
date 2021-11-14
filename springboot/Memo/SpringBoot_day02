@@ -1,0 +1,24 @@
+📌 헬로월드가 출력되는 과정을 설명해보자!
+	👉🏻  웹서비스는 클라이언트와 서버의 요청과 응답으로 동작
+	http://localhost:8088/hello.html
+		▪ localhost = "주소"  
+		▪ 8088 = "포트번호" 
+		▪ /hello.html = "응답"
+			⇒ 스프링부트는 resources의 static에서 응답을 찾게된다. 
+	현재는 클라이언트(= 컴퓨터) 서버( = 스프링부트)이다.
+
+📌 MVC패턴을 활요한 템플릿페이지 제작 
+	View Template Controller Model
+	뷰템플릿의 위치 : src/main/resources → templates 
+	확장자명 : .mustache
+	mustache를 사용하기 위해서는 플러그인 설치가 필요 
+	mustache 플러그인 설치방법
+	IntelliJ에서는 플러그인을 설치하지만 Eclipse에서는 플러그인 설치가 불가하다.
+	그러므로 Window → preperences → Add Root 에서 Mustache 추가
+	 → File associations 에서 Add 클릭후 *.mustache 추가
+	 → Associated editors에서 Add 클릭후 HTML Editor추가 
+	 → Default encoding에서 UTF-8 → Apply and Close
+	 
+	 컨트롤러 위치 : src/main/java의 default패키지 
+	 
+	
