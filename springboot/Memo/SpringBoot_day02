@@ -19,6 +19,7 @@
 	 → Associated editors에서 Add 클릭후 HTML Editor추가 
 	 → Default encoding에서 UTF-8 → Apply and Close
 	 
-	 컨트롤러 위치 : src/main/java의 default패키지 
+	컨트롤러 위치 : src/main/java의 default패키지
+	모델 위치 : 현재는 컨트롤러에서 Model 객체를 생성해서 셋팅  
 	 
 	

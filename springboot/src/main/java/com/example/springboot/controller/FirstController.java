@@ -15,4 +15,9 @@ public class FirstController {
 		// 이전의 Model클래스에서 하는 행동이다. 
 		return "greetings"; // templates/greetings.mustache → 브라우저로 전송!
 	}
+	@GetMapping("/bye")
+	public String seeYouNext(Model model) {
+		model.addAttribute("nickname","Jandi");
+		return "goodbye";
+	}
 }
